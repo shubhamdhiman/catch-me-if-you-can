@@ -17,6 +17,7 @@ box.addEventListener("mouseover",function(){
         randomNumber(1,window.innerHeight-60)
         randomNumber(1,window.innerWidth-120)
     }else{
+        // Changing the position of box after generating random number
         vertical = randomNumVertical
         box.style.top = randomNumVertical + "px";
         box.style.left = randomNumHorizontal + "px";
